@@ -62,7 +62,7 @@ function getLinkComponent(config) {
               <img
                 src={openlink}
                 alt=""
-                onClick={this.openLink}
+                // onClick={this.openLink}
                 className="rdw-link-decorator-icon"
               />
             </a>

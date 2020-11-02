@@ -58,12 +58,14 @@ function getLinkComponent(config) {
         >
           <a href={url} target={targetOption}>{children}</a>
           {showPopOver && showOpenOptionOnHover ?
-            <img
-              src={openlink}
-              alt=""
-              onClick={this.openLink}
-              className="rdw-link-decorator-icon"
-            />
+            <a href={url} target={targetOption}>
+              <img
+                src={openlink}
+                alt=""
+                onClick={this.openLink}
+                className="rdw-link-decorator-icon"
+              />
+            </a>
             : undefined
           }
         </span>

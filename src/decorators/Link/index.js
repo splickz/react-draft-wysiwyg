@@ -58,7 +58,7 @@ function getLinkComponent(config) {
         >
           <a href={url} target={targetOption}>{children}</a>
           {showPopOver && showOpenOptionOnHover ?
-            <a href={url} target={targetOption}>
+            <a href={url} target={targetOption} className="rdw-link-decorator-icon-link">
               <img
                 src={openlink}
                 alt=""
